@@ -30,7 +30,7 @@ header {
 .banner {
     position: relative;
     height: 400px;
-    background-image:url(palmier.jpg);
+    background-image:url(imgs/palmier.jpg);
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
