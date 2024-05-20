@@ -1,0 +1,117 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.logo img {
+    height: 150px;
+}
+
+.contact {
+    text-align: right;
+}
+
+.contact p {
+    margin: 0;
+}
+
+.banner {
+    position: relative;
+    height: 400px;
+    background-image:url(palmier.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    filter: brightness(75%);
+
+}
+.banner .text-content{
+    text-align: left;
+    width: 75%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.banner .text-content h1{
+    color: #fff;
+}
+.banner .text-content h2{
+    color: #fff;
+}
+@media (min-width: 576px) {
+    .card-deck .card {
+        flex: 1 0 15%;
+    }
+}
+
+.destinations {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 20px;
+}
+
+.destination-card {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 15px;
+    width: 30%;
+    /**/box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.destination-card img {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+}
+
+.destination-card h2 {
+    margin: 15px 0 10px;
+    font-size: 1.5em;
+}
+
+.destination-card p {
+    color: #666;
+}
+
+.card-deck {
+    margin: 50px;
+  }
+.card{
+    border-radius: 20px;
+    height: fit-content;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 250px;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+  }
+  .fa-envelope{
+    margin-right: 200px;
+    color: #05a4c8;
+  }
+  .fa-phone{
+    margin-right: 200px;
+    color: #0d89ea;
+  }
+  .fa-arrow-right{
+    color: #05a4c8;
+  }
